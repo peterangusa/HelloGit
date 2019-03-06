@@ -18,5 +18,5 @@ Islamic University |2012/2015
 
 #### Favourite Quote
 
-Success does not consist in never making mistakes but in never making the same one a secon time
+Success does not consist in never making mistakes but in never making the same one a second time
 
