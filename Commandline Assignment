@@ -1,0 +1,38 @@
+prof@prof-HP-ProBook-450-G3:~/projects/HelloGit$ pwd
+/home/prof/projects/HelloGit
+prof@prof-HP-ProBook-450-G3:~/projects/HelloGit$ ls
+ Assignment            Images                'What is Programming?'
+ HelloMarkdown.MD      Outbox-EDU-Html.html
+'HTML Elements Quiz'   README.md
+prof@prof-HP-ProBook-450-G3:~/projects/HelloGit$ cd Desktop
+bash: cd: Desktop: No such file or directory
+prof@prof-HP-ProBook-450-G3:~/projects/HelloGit$ ls
+ Assignment            Images                'What is Programming?'
+ HelloMarkdown.MD      Outbox-EDU-Html.html
+'HTML Elements Quiz'   README.md
+prof@prof-HP-ProBook-450-G3:~/projects/HelloGit$ pwd
+/home/prof/projects/HelloGit
+prof@prof-HP-ProBook-450-G3:~/projects/HelloGit$ cd desktop
+bash: cd: desktop: No such file or directory
+prof@prof-HP-ProBook-450-G3:~/projects/HelloGit$ mkdir test
+prof@prof-HP-ProBook-450-G3:~/projects/HelloGit$ mkdir test test2
+mkdir: cannot create directory ‘test’: File exists
+prof@prof-HP-ProBook-450-G3:~/projects/HelloGit$ cd test
+prof@prof-HP-ProBook-450-G3:~/projects/HelloGit/test$ touch file1 file2
+prof@prof-HP-ProBook-450-G3:~/projects/HelloGit/test$ touch test2/file1 test2/file2
+touch: cannot touch 'test2/file1': No such file or directory
+touch: cannot touch 'test2/file2': No such file or directory
+prof@prof-HP-ProBook-450-G3:~/projects/HelloGit/test$ touch ../test2/file1 ../test2/file2
+prof@prof-HP-ProBook-450-G3:~/projects/HelloGit/test$ cd ~
+prof@prof-HP-ProBook-450-G3:~$ rm test
+rm: cannot remove 'test': No such file or directory
+prof@prof-HP-ProBook-450-G3:~$ rm - test
+rm: cannot remove '-': No such file or directory
+rm: cannot remove 'test': No such file or directory
+prof@prof-HP-ProBook-450-G3:~$ rm - r test
+rm: cannot remove '-': No such file or directory
+rm: cannot remove 'r': No such file or directory
+rm: cannot remove 'test': No such file or directory
+prof@prof-HP-ProBook-450-G3:~$ rm -r test
+rm: cannot remove 'test': No such file or directory
+prof@prof-HP-ProBook-450-G3:~$ exit
