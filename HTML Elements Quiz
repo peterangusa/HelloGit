@@ -1,0 +1,11 @@
+What is the recommended structure of an HTML document?
+title tag in head tag, then body tag, all in the < html > tag
+
+What are inline-tags?
+They can exist on the same horizontal line on a webpage
+
+Which of the following is a feature of block tags?
+They have default padding in them
+
+Which of the following tags can be used to give the page a responsive scale ?
+< meta >
